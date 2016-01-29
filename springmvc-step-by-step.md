@@ -12,13 +12,12 @@
 		<slf4j-version>1.5.8</slf4j-version>
 		<aspectj-version>1.6.10</aspectj-version>
 	</properties>
-	```   
+```   
+
 	
-
 **pom.xml - dependencies**   
-```xml
+```xml   
 <dependencies>
-
 		<!-- Spring -->
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -113,12 +112,11 @@
 			<artifactId>jstl</artifactId>
 			<version>1.2</version>
 		</dependency>
-
 	</dependencies>
 ```      
 
-**pom.xml - repositories**   
-```xml
+**pom.xml - repositories**      
+```xml   
 	<repositories>
 		<repository>
 			<id>spring-milestones</id>
@@ -129,10 +127,10 @@
 			</snapshots>
 		</repository>
 	</repositories>
-```   
+```      
 
-**pom.xml - build/plugins**   
-```xml
+**pom.xml - build/plugins**      
+```xml   
 	<build>
 		<finalName>springconf</finalName>
 		<plugins>
@@ -164,10 +162,10 @@
 			</plugin>
 		</plugins>
 	</build>
-```   
+```      
 
-**/webapp/WEB-INF/applicationContext.xml**   
-```xml
+**/webapp/WEB-INF/applicationContext.xml**      
+```xml   
 <?xml version="1.0" encoding="UTF-8"?>
 <beans:beans xmlns="http://www.springframework.org/schema/mvc"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
