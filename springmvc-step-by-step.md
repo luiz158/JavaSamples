@@ -2,10 +2,6 @@
 
 ### Configuration Step-by-Step   
 
-# spring-configuration   
-
-### example to configuration spring project   
-
 **pom.xml - properties**   
 ```xml
 	<properties>
